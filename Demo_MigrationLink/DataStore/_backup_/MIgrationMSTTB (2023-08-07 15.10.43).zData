@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStore>
+	<Types CRC="6A7A9692">
+		<Record Name="MIgrationMSTTBRecord">
+			<Field Name="RowId" Type="String" Unique="true"/>
+			<Field Name="Txt_GoogleSearch" Type="String"/>
+			<Field Name="sExpectedValue" Type="String"/>
+		</Record>
+		<List Name="MIgrationMSTTBRecordList" ItemType="MIgrationMSTTBRecord"/>
+	</Types>
+	<Objects>
+		<Object Name="MIgrationMSTTB" Type="MIgrationMSTTBRecordList" KeyField="RowId">
+			<MIgrationMSTTBRecord>
+				<RowId>2</RowId>
+				<Txt_GoogleSearch>migration of test automation projects matryxsoft</Txt_GoogleSearch>
+				<sExpectedValue>How can one migrate the Test Automation Project?</sExpectedValue>
+			</MIgrationMSTTBRecord>
+		</Object>
+	</Objects>
+	<Layout>
+		<Object Name="MIgrationMSTTB"/>
+	</Layout>
+</DataStore>

@@ -1,0 +1,8 @@
+record MIgrationTextTBRecord
+	String RowId
+	String Txt_GoogleSearch
+	String sExpectedValue
+record MIgrationMSTTBRecord
+	String RowId
+	String Txt_GoogleSearch
+	String sExpectedValue

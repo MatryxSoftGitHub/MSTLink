@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="6A7A9692"/>
+	<Declare>
+		<Attributes>
+			<Attribute Name="RunCount" Type="Integer" Optional="true"/>
+		</Attributes>
+		<Variables/>
+	</Declare>
+	<Plans>
+		<Plan GUID="0CEA02BB4812865386674191FE9B191D">
+			<Name>MigrationTextZeenyxPlan</Name>
+			<Nodes>
+				<Node GUID="4B038720488D7ADD35919E851208468E">
+					<Name>Verfies the content of Migration Blog on Zeenyx website from google search</Name>
+					<Attributes>
+						<RunCount>20</RunCount>
+					</Attributes>
+					<Test Name="VerifyMigrationTextOnZeenyxWebsite">
+						<Parameters>
+							<Parameter Name="RowId" Type="String"/>
+						</Parameters>
+					</Test>
+					<Data>
+						<RowId>1</RowId>
+					</Data>
+				</Node>
+			</Nodes>
+		</Plan>
+	</Plans>
+</Project>

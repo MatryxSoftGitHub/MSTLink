@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="6A7A9692"/>
+	<Suites>
+		<Suite GUID="426CFEA04439153400B51CBD59750BC6">
+			<Name>MigrationSuite</Name>
+			<Plans/>
+		</Suite>
+	</Suites>
+</Project>

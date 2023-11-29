@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="6A7A9692"/>
+	<Declare>
+		<Attributes/>
+		<Variables/>
+	</Declare>
+	<Plans>
+		<Plan GUID="80ACB8AF49DB76E5B8FD8DAEB2E3CF96">
+			<Name>TestMigrationLink</Name>
+			<Nodes>
+				<Node GUID="9EDCF636426BCC80F8E164B6AB640572">
+					<Name>MSTMigrationLink</Name>
+					<Test Name="VerifyMigrationTextOnMSTWebsite" Class="">
+						<Parameters>
+							<Parameter Name="RowId" Type="String"/>
+						</Parameters>
+					</Test>
+					<Data>
+						<RowId>1</RowId>
+					</Data>
+				</Node>
+			</Nodes>
+		</Plan>
+	</Plans>
+</Project>

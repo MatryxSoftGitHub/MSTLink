@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStore>
+	<Object Name="MIgrationMSTTB" Type="MIgrationMSTTBRecordList" FileName="MIgrationMSTTB.zData"/>
+	<Object Name="MIgrationTextTB" Type="MIgrationTextTBRecordList" FileName="MIgrationTextTB.zData"/>
+</DataStore>

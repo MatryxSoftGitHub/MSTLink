@@ -1,0 +1,17 @@
+﻿class GoogleAppState : Test
+	OnStart()
+		// Use Project/Data... to change the BrowserType
+		WebBrowserType BrowserType = DataStore.Query ("BrowserType")
+		Web.SetBrowser(BrowserType)
+		UA.SetOption ("PageLoadTimeout", 20)
+		if Google.WaitUntilExists (10)
+			return
+		Web.SetBaseState ("https://www.google.com/")
+		
+	OnFinish()
+		MigrationOfTestAutomationProjects.Close ()
+		
+class VerifyMigrationTextOnZeenyxWebsite : GoogleAppState
+	%TestInfo[Desc="Verfies the content of Migration Blog on Zeenyx website from google search",Group="MigrationVerification"]
+	Main()
+		

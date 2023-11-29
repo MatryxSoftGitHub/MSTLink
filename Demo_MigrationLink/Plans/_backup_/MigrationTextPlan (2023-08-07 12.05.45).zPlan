@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="E5FDF891"/>
+	<Declare>
+		<Attributes/>
+		<Variables/>
+	</Declare>
+	<Plans>
+		<Plan GUID="0CEA02BB4812865386674191FE9B191D">
+			<Name>MigrationTextPlan</Name>
+			<Nodes>
+				<Node GUID="4145AC6A47F12D0FE99D0A8B0D41B0E5"/>
+			</Nodes>
+		</Plan>
+	</Plans>
+</Project>

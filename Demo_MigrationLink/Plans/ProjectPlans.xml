@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plans>
+	<Plan GUID="6498E04C4AA4AEDA37101186913D63AB">
+		<Name>MigrationTextMSTPlan</Name>
+		<FileName>MigrationTextMSTPlan.zPlan</FileName>
+	</Plan>
+	<Plan GUID="0CEA02BB4812865386674191FE9B191D">
+		<Name>MigrationTextZeenyxPlan</Name>
+		<FileName>MigrationTextZeenyxPlan.zPlan</FileName>
+	</Plan>
+	<Plan GUID="80ACB8AF49DB76E5B8FD8DAEB2E3CF96">
+		<Name>TestMigrationLink</Name>
+		<FileName>TestMigrationLink.zPlan</FileName>
+	</Plan>
+</Plans>

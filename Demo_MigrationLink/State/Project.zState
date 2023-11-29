@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<State>
+	<GroupList SelectedGroup="Test Sets">
+		<Group Name="App Objects" GroupOrientation="Vert" SecondaryGroup="">
+			<Workspace>
+				<Panels>
+					<Panel Name="Actions Explorer" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="Compile Errors" Size="0" Collapsed="true" LastLocation="DockBottom"/>
+					<Panel Name="App Objects" Size="0" Collapsed="false" LastLocation="DockRight"/>
+					<Panel Name="App Object Editor" Size="0" Collapsed="false" LastLocation="DockBottom"/>
+					<Panel Name="App Metadata Editor" Size="0" Collapsed="true" LastLocation="DockBottom"/>
+				</Panels>
+				<Sections>
+					<Section Location="DockLeft" Size="240" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockRight" Size="359" Collapsed="false">
+						<Panels>
+							<Panel Name="App Objects"/>
+						</Panels>
+					</Section>
+					<Section Location="DockBottom" Size="138" Collapsed="false">
+						<Panels>
+							<Panel Name="App Object Editor"/>
+							<Panel Name="App Metadata Editor"/>
+							<Panel Name="Compile Errors"/>
+						</Panels>
+					</Section>
+				</Sections>
+			</Workspace>
+		</Group>
+		<Group Name="Tests" GroupOrientation="Vert" SecondaryGroup="App Objects">
+			<TabList>
+				<Tab TabKind="Step" Name="Libraries\Project Library\Steps.z:OCRVerification" Selected="true"/>
+			</TabList>
+			<Workspace>
+				<Panels>
+					<Panel Name="Actions Explorer" Size="0" Collapsed="false" LastLocation="DockRight"/>
+					<Panel Name="Compile Errors" Size="0" Collapsed="false" LastLocation="DockBottom"/>
+					<Panel Name="App Objects" Size="0" Collapsed="true" LastLocation="DockRight"/>
+					<Panel Name="App Object Editor" Size="0" Collapsed="true" LastLocation="DockBottom"/>
+					<Panel Name="App Metadata Editor" Size="0" Collapsed="false" LastLocation="DockBottom"/>
+				</Panels>
+				<Sections>
+					<Section Location="DockLeft" Size="32" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockRight" Size="227" Collapsed="false">
+						<Panels>
+							<Panel Name="Actions Explorer"/>
+						</Panels>
+					</Section>
+					<Section Location="DockBottom" Size="167" Collapsed="false">
+						<Panels>
+							<Panel Name="Compile Errors"/>
+						</Panels>
+					</Section>
+				</Sections>
+			</Workspace>
+		</Group>
+		<Group Name="Data Tables" GroupOrientation="Vert" SecondaryGroup="">
+			<Workspace>
+				<Panels>
+					<Panel Name="Actions Explorer" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="Compile Errors" Size="0" Collapsed="false" LastLocation="DockBottom"/>
+					<Panel Name="App Objects" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="App Object Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+					<Panel Name="App Metadata Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+				</Panels>
+				<Sections>
+					<Section Location="DockLeft" Size="58" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockRight" Size="240" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockBottom" Size="56" Collapsed="false">
+						<Panels>
+							<Panel Name="Compile Errors"/>
+						</Panels>
+					</Section>
+				</Sections>
+			</Workspace>
+		</Group>
+		<Group Name="Plans" GroupOrientation="Vert" SecondaryGroup="">
+			<TabList>
+				<Tab TabKind="Suite" Name="MigrationSuite"/>
+				<Tab TabKind="Plan" Name="TestMigrationLink" Selected="true"/>
+			</TabList>
+			<Workspace>
+				<Panels>
+					<Panel Name="Actions Explorer" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="Compile Errors" Size="0" Collapsed="false" LastDockLocation="DockBottom"/>
+					<Panel Name="App Objects" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="App Object Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+					<Panel Name="App Metadata Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+				</Panels>
+				<Sections>
+					<Section Location="DockLeft" Size="58" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockRight" Size="240" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockBottom" Size="156" Collapsed="true">
+						<Panels>
+							<Panel Name="Compile Errors"/>
+						</Panels>
+					</Section>
+				</Sections>
+			</Workspace>
+		</Group>
+		<Group Name="Test Sets" GroupOrientation="Vert" SecondaryGroup="">
+			<TabList>
+				<Tab TabKind="TestSet" Name="MigrationLink"/>
+				<Tab TabKind="TestSet" Name="MigrationMSTLink" Selected="true"/>
+			</TabList>
+			<Workspace>
+				<Panels>
+					<Panel Name="Actions Explorer" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="Compile Errors" Size="0" Collapsed="false" LastDockLocation="DockBottom"/>
+					<Panel Name="App Objects" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="App Object Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+					<Panel Name="App Metadata Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+				</Panels>
+				<Sections>
+					<Section Location="DockLeft" Size="32" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockRight" Size="240" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockBottom" Size="156" Collapsed="true">
+						<Panels>
+							<Panel Name="Compile Errors"/>
+						</Panels>
+					</Section>
+				</Sections>
+			</Workspace>
+		</Group>
+		<Group Name="Library" GroupOrientation="Vert" SecondaryGroup="">
+			<Workspace>
+				<Panels>
+					<Panel Name="Actions Explorer" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="Compile Errors" Size="0" Collapsed="false" LastLocation="DockBottom"/>
+					<Panel Name="App Objects" Size="0" Collapsed="true" LastDockLocation="DockRight"/>
+					<Panel Name="App Object Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+					<Panel Name="App Metadata Editor" Size="0" Collapsed="true" LastDockLocation="DockBottom"/>
+				</Panels>
+				<Sections>
+					<Section Location="DockLeft" Size="272" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockRight" Size="240" Collapsed="false">
+						<Panels/>
+					</Section>
+					<Section Location="DockBottom" Size="49" Collapsed="false">
+						<Panels>
+							<Panel Name="Compile Errors"/>
+						</Panels>
+					</Section>
+				</Sections>
+			</Workspace>
+		</Group>
+	</GroupList>
+	<AppObjects Path="Libraries\Project Library\App Objects.z" IsOpen="true"/>
+	<Explorer>
+		<AppView IsCollapsed="true"/>
+		<StepView Organize="Group"/>
+		<TestView Organize="Group"/>
+	</Explorer>
+</State>

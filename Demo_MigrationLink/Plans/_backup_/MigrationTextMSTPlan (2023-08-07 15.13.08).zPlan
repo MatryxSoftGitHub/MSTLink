@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="6A7A9692"/>
+	<Declare>
+		<Attributes/>
+		<Variables/>
+	</Declare>
+	<Plans>
+		<Plan GUID="6498E04C4AA4AEDA37101186913D63AB">
+			<Name>MigrationTextMSTPlan</Name>
+			<Nodes>
+				<Node GUID="C823BEDB44554B8957801AA4131185AA"/>
+			</Nodes>
+		</Plan>
+	</Plans>
+</Project>

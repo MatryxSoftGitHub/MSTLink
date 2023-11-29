@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="6A7A9692"/>
+	<Declare>
+		<Attributes>
+			<Attribute Name="RunCount" Type="Integer" Optional="true"/>
+		</Attributes>
+		<Variables/>
+	</Declare>
+	<Plans>
+		<Plan GUID="6498E04C4AA4AEDA37101186913D63AB">
+			<Name>MigrationTextMSTPlan</Name>
+			<Nodes>
+				<Node GUID="0D16FCC142BCD51EC9323C9AD85F392E">
+					<Name>Verify Migration LInk and Text for MIgration on MST website</Name>
+					<Attributes>
+						<RunCount>20</RunCount>
+					</Attributes>
+					<Test Name="VerifyMigrationTextOnMSTWebsite" Class="">
+						<Parameters>
+							<Parameter Name="RowId" Type="String"/>
+						</Parameters>
+					</Test>
+					<Data>
+						<RowId>1</RowId>
+					</Data>
+				</Node>
+			</Nodes>
+		</Plan>
+	</Plans>
+</Project>

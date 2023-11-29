@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="6A7A9692"/>
+	<Suites>
+		<Suite GUID="426CFEA04439153400B51CBD59750BC6">
+			<Name>MigrationSuite</Name>
+			<Plans>
+				<Plan GUID="6498E04C4AA4AEDA37101186913D63AB">
+					<Name>MigrationTextMSTPlan</Name>
+					<Instance GUID="8BC1FFF9476F26FA5CE4F7A75BB89163">
+						<Name></Name>
+					</Instance>
+				</Plan>
+				<Plan GUID="0CEA02BB4812865386674191FE9B191D">
+					<Name>MigrationTextZeenyxPlan</Name>
+					<Instance GUID="372FEF934E36A7CA1C6B128384A5E1F1">
+						<Name></Name>
+					</Instance>
+				</Plan>
+			</Plans>
+		</Suite>
+	</Suites>
+</Project>

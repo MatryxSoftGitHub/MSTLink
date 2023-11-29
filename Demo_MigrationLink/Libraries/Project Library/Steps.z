@@ -1,0 +1,58 @@
+﻿class NavigatetoZeenyxWebsiteOnMigration : Step
+	%StepInfo[Desc="Navigates from Google search to Zeenyx website link on migratonof test automation projects",Group="Navigation"]
+	parameter String Txt_GoogleSearch
+	Main()
+		Google.SetActive ()
+		Google.Txt_GoogleSearch.SetValue (Txt_GoogleSearch)
+		Google.Txt_GoogleSearch.TypeKeys("<Enter>")
+		if MigrationOfTestAutomationProjects.WaitUntilExists (10, NotExistAction.None)
+			Print ("Navigated to Zeenyx Link")
+		else
+			LogError ("Zeenyx Link was not found")
+		
+class ClickandVerifyZeenyxLinkOnMigration : Step
+	%StepInfo[Desc="Clicks on the zeenyx link and verifies Migation Text",Group="Verification"]
+	parameter String sExpectedValue
+	Main()
+		MigrationOfTestAutomationProjects.SetActive ()
+		MigrationOfTestAutomationProjects.Link_MigrationOfTestAutomationProjects.Navigate ()
+		Sleep (10)
+		String sActualValue = MigrationOfTestAutomationProjects.Lbl_HowCanOneMigrate.GetText()
+		VerifyValue ("Verify How to Perform Migration", sExpectedValue, sActualValue)
+		Sleep (10)
+		
+class NavigateToMatryxsoftWebLink : Step
+	%StepInfo[Desc="Navigates from Google search to Matryxsoft Weblink on mIgration",Group="Navigation"]
+	parameter String Txt_GoogleSearch
+	Main()
+		Google.SetActive ()
+		Google.Txt_GoogleSearch.SetValue (Txt_GoogleSearch)
+		Google.Txt_GoogleSearch.TypeKeys("<Enter>")
+		if MigrationOfTestAutomationProjects.WaitUntilExists (10, NotExistAction.None)
+			Print ("Navigated to Matryxsoft Link")
+		else
+			LogError ("Matryxsoft Link was not found")
+		
+		
+class ClickandVerifyMSTLinkOnMigration : Step
+	%StepInfo[Desc="Clicks on the zeenyx link and verifies Migation Text",Group="Verification"]
+	parameter String sExpectedValue
+	Main()
+		MigrationOfTestAutomationProjects.SetActive ()
+		MigrationOfTestAutomationProjects.Link_MigrationOfTestAutomationProjectsMST.Navigate ()
+		Sleep(10)
+		String sActualValue = MigrationOfTestAutomationProjects.LBL_MigrationOfTestAutomationProjectsMST.GetText ()
+		VerifyValue ("Verify How to Perform Migration", sExpectedValue, sActualValue)
+		Sleep(10)
+		
+class OCRVerification : Step
+	Main()
+		String sOcrPath = "C:\Users\Dilip\Desktop\OCR\ocr2.exe"
+		String sNewImage = "C:\Users\Dilip\Desktop\OCR\Dialog.bmp"
+		List<String> lsOut
+		String sText
+		
+		System.Execute ("{sOcrPath} {sNewImage} View", lsOut)
+		Print (lsOut)
+		// OcrGetTextFromBmp(sText,sProtectionSummaryImage)
+		

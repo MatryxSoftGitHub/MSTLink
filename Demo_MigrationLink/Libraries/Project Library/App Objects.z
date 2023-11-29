@@ -1,0 +1,15 @@
+﻿app WebPage Google
+	path [@Title=="Google"]
+	WebTextField Txt_GoogleSearch
+		path [@Name=="q"]
+app WebPage MigrationOfTestAutomationProjects
+	path [@Title like "Migration of Test Automation Project*"]
+	WebLink Link_MigrationOfTestAutomationProjects
+		path [@Text like "Migration of Test Automation Projects*"][1]
+	WebText Lbl_HowCanOneMigrate
+		path [@Text=="How can one migrate the Test Automation Project?"]
+	WebLink Link_MigrationOfTestAutomationProjectsMST
+		path [@Text like "Migration of Test Automation Projects*"][1]
+	WebText LBL_MigrationOfTestAutomationProjectsMST
+		path [@Text=="How can one migrate the Test Automation Project?"]
+	
